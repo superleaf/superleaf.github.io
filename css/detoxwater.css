@@ -1,0 +1,273 @@
+/* Global Styles */
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+h2,h3, h4 {
+    font-weight: 700;
+}
+p{
+    font-family: "Raleway";
+    font-size:1.2em;
+    font-weight: 400;
+    letter-spacing:1px
+}
+
+hr{
+    border-top:2px solid #Ba7e3c;
+}
+/* Side Menu */
+
+#sidebar-wrapper {
+  margin-right: -250px;
+  right: 0;
+  width: 250px;
+  background: #368073;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#menu-toggle {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+#menu-close{
+    color: #4AAF9E;
+    
+}
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.toggle {
+  margin: 5px 5px 0 0;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+    background-color: #4AAF9E;
+  color: black;
+}
+
+/* Intro Video */
+
+.introvideo {
+  padding: 50px 0;
+    background-color: #BA7E3C;
+    color: white;
+}
+
+/* Aloe */
+
+.aloe {
+  background: #3F313B;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #4AAf9e;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+    color: #4AAf9e;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+i.service-icon:hover{
+font-size: 75px;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Callout */
+
+.callout {
+  color: #4AAf9e;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/girl_water.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.4em;
+}
+
+/* Portfolio */
+
+.benefits {
+  padding: 50px 0;
+    background: #ded3c0;
+}
+
+
+/* Call to Action */
+
+.preorder {
+  color: #ffffff;
+  background: #4AAF9E;
+  padding: 50px 0;
+}
+
+.preorder .btn {
+  margin: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #4AAF9E;
+    color: white;
+}
+footer a{
+    
+    color: white;
+}
+
+footer a:hover{
+    color:#3F313B;
+}
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #2d692d;
+}
+/* Responsive */
+#mc_embed_signup{
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup {width: auto;}
+#mc_embed_signup form {position:relative; padding:10px 0 10px 3%;}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+#mc_embed_signup input.button {width:35%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
